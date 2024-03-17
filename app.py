@@ -21,5 +21,5 @@ def index():
 def form():
     return render_template('form.html')
 
-if __name__=='__main__':
-    app.run('0.0.0.0', 5500, debug=True)
+# if __name__=='__main__':
+#    app.run('0.0.0.0', 5500, debug=True)
