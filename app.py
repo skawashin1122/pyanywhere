@@ -13,7 +13,17 @@ def index():
         'title': '常識を疑え',
         'price': 1420,
         'arrival_day': '2024年3月15日'
-        }
+        },
+        {
+        'title': 'GitHUB',
+        'price': 2200,
+        'arrival_day': '2024年3月17日'
+        },
+        {
+        'title': 'PythonAnyWhere',
+        'price': 2420,
+        'arrival_day': '2024年3月17日'
+        }        
     ]
     return render_template('index.html', books=books)
 
